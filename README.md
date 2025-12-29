@@ -48,14 +48,13 @@ Follow the steps below to run the project locally.
 
 ### 1️⃣ Clone the Repository
 
-```bash
 git clone https://github.com/YOUR_USERNAME/CreativeConnect.git
 cd CreativeConnect
 
 ### 2️⃣ Backend Setup
 
 Navigate to the backend folder and start the Spring Boot server:
-```bash
+
 cd backend
 ./mvnw spring-boot:run
 
@@ -65,7 +64,7 @@ http://localhost:8080
 ### 3️⃣ Frontend Setup
 
 Open a new terminal window, then:
-```bash
+
 cd frontend
 npm install
 npm run dev
@@ -75,11 +74,12 @@ The frontend will run at:
 http://localhost:5173
 
 ## 🔐 Environment Variables
-###Frontend
+
+### Frontend
 Create a .env file inside the frontend folder:
 VITE_API_URL=http://localhost:8080
 
-###Backend
+### Backend
 If using a database, configure credentials using environment variables instead of hardcoding them in application.properties.
 🔗 API Overview (Sample)
 Method	    Endpoint	        Description
@@ -89,7 +89,7 @@ PUT	        /posts/{id}       Update a post
 DELETE	    /posts/{id}	      Delete a post
 
 
-###📌 Future Improvements
+### 📌 Future Improvements
 
 User profiles
 
